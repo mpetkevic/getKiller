@@ -4,8 +4,8 @@ function getKiller(suspectInfo, deadPeople) {
         const containsAllDeadPeople = deadPeople.every(element => {
             return people.includes(element);
         });
-        if (containsAllDeadPeople === true) {
-            alert(`Убийца ${killer}`);
+        if (containsAllDeadPeople === true) {  // здесь можешь оставить if (containsAllDeadPeople) {
+            alert(`Убийца ${killer}`);         // так как оно поумолчанию boolean
         }
     }
 }
